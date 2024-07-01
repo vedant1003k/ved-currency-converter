@@ -4,6 +4,8 @@ const freecurrencyapi = new Freecurrencyapi(
   "fca_live_bbmDqAJEDhivLSgdLPJo6AYGEwZ7ZkHfKh3zbowI"
 );
 
+
+//comment to testing the version updation major minior patch
 export const convertCurrency = async (fromCurrency, toCurrency, units) => {
   const response = await freecurrencyapi.latest({
     base_currency: fromCurrency,
