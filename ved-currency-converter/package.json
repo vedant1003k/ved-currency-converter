@@ -1,0 +1,26 @@
+{
+  "name": "ved-currency-converter",
+  "version": "1.0.0",
+  "description": "AN NPM PACKAGE TO CONVERT CURRENCY",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedant1003k/ved-currency-converter.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Vedant Kashyap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedant1003k/ved-currency-converter/issues"
+  },
+  "homepage": "https://github.com/vedant1003k/ved-currency-converter#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
